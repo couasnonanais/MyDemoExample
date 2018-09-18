@@ -4,7 +4,6 @@ Created on Tue Sep 18 13:52:00 2018
 
 @author: Anton
 """
-import functions
 import mock
 from mock import patch , Mock
 
