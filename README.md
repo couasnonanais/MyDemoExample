@@ -27,4 +27,5 @@ Testing is with pytest
 Using patch and mock for unittesting
 
 Continuous testing.
-To test, needs to add a travis. yml file
+To test, needs to add a .travis.yml file
+Need to enable repository to create travis
