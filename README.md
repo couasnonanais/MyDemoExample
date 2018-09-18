@@ -12,3 +12,6 @@ Link to tutorial or notebook
 ## service to create a doi for a piece of software --> zenodo : Update the doi if a new version is out. Very convenient for reproducible research
 
 # If you want to contribute send a pull request or send your contributation to this email adress
+
+#Using cookiecutter to create the package setup
+#Using pypi to start version of package
