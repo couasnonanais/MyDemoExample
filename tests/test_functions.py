@@ -4,8 +4,7 @@ Created on Tue Sep 18 13:52:00 2018
 
 @author: Anton
 """
-
-from functions import *
+import functions
 import mock
 from mock import patch , Mock
 
@@ -13,7 +12,7 @@ from mock import patch , Mock
 
 def test_awesome_function():
     expected_value = 42
-    actual_value = awesome_function()
+    actual_value = functions.awesome_function()
     assert expected_value == actual_value, 'Value doesnot match'
     
 def test_something_else():
@@ -23,5 +22,5 @@ def test_something_else():
 def test_text_analysis(mock_call):
     mock_call.return_value = Mock()
     mock_call.return_value.text = 'fake text'
-    wc = do_text_analysis()
+    wc = functions.do_text_analysis()
     assert wc > 0, 'Text should have more than 0 length'
