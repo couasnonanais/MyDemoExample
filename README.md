@@ -15,3 +15,16 @@ Link to tutorial or notebook
 
 #Using cookiecutter to create the package setup
 #Using pypi to start version of package
+
+To use the cookie cutter: 
+create it with the Terminal. 
+create the Package
+intall the package by going to the folder and then "pip install ."
+
+Once it is installed, you can start adding functions and creating your package
+
+Testing is with pytest
+Using patch and mock for unittesting
+
+Continuous testing.
+To test, needs to add a travis. yml file
